@@ -19,6 +19,8 @@ public class DayEx1 {
 			
 			
 			System.out.println();
+			
+			
 		   
 		  
 		 
