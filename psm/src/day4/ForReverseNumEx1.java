@@ -21,5 +21,13 @@ public class ForReverseNumEx1 {
 			num = num / 10;
 			
 		}
+		//int num = 1234;
+		//for( ;num != 0 ; num = num / 10) {
+			//System.out.print(num % 10);
+
+		
+		
+		
+		
 	}
 }
