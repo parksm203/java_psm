@@ -19,9 +19,13 @@ public class ForReverseNunEx1 {
 		System.out.println();
 		//방법2
 		for(i = 0; i < 5 ; i++) {
-			System.out.println(5 - i + " ");
+			System.out.println();
 		}
-
+		
+		
+		
+	
+		
 	}
 
 }
