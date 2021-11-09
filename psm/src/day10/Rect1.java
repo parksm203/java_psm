@@ -25,13 +25,12 @@ public class Rect1 {
 	public void print(int x, int y) {
 		this.x = x; this.y = y;
 	}
-	//사각형 크기 변경 기능
+	//사각형 크기 변경 기능(왼쪽 위의점을 기준으로 크기변경)
 	public void resize(int width, int height) {
 		this.width = width; 	this.height = height;
 	}
 
 	public void move(int i, int j) {
-		// TODO Auto-generated method stub
 		
 	}
 }
