@@ -38,12 +38,13 @@ public class ArrayScoreAverageEx1 {
 		int i;
 		
 		
-		for(i=0;i<5;i++) {
+		for(i=0;i<score2.length;i++) {
 			System.out.print("학생" +(i+1) + "의 국어성적 : ");
 			score2[i] = scan.nextInt();
 		}
-		for(i=0, sum = 0; i<5;i++) {
-			sum += score2[i];
+		
+		for(i=0, sum = 0; i<score2.length;i++) {
+			sum += score2[i];// sum = sum+score2[i]
 		}
 		
 		average = sum/5.0;

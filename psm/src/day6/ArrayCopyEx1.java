@@ -9,9 +9,9 @@ public class ArrayCopyEx1 {
 		//일반 변수는 = 를 이용하여 값을 복사한 후에 원본 값이 바뀌면 복사본 값이 안바뀜
 		//원본 : num1, 복사본 : num2
 		int num2 = num1;
-		 System.out.println("num1 : " + num1 + "num2 : " + num2);
+		 System.out.println("num1 : " + num1 + " num2 : " + num2);
 		 num1 = 20;
-		 System.out.println("num1 : " + num1 + "num2 : " + num2);
+		 System.out.println("num1 : " + num1 + " num2 : " + num2);
 		/*참조변수는 = 을 이용하여 복사 하면, 값이 복사되는게 아니라 주소를 공유한다.
 		 * 값이 바뀌면 같이 바뀜*/
 		 

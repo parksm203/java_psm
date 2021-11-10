@@ -15,9 +15,9 @@ public class ClassStaticEx1 {
 				t1.num1 = 20;
 				t1.num2 = 40;
 				System.out.println("t1 객체 변수 num1 : " + t1.num1);
-				System.out.println("t1 클래스 변수 num1: " + t1.num2);
+				System.out.println("t1 클래스 변수 num2: " + t1.num2);
 				System.out.println("t2 객체 변수 num1 : " + t2.num1);
-				System.out.println("t2 클래스 변수 num1: " + t2.num2);
+				System.out.println("t2 클래스 변수 num2: " + t2.num2);
 				System.out.println(Math.E);
 				System.out.println(Math.PI);
 				//0~1사이의 랜덤한 실수를 알려주는 클래스 메소드

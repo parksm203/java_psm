@@ -15,6 +15,7 @@ public class ArrayRandomEx2 {
 		for(int i = 0; i<num.length ; i++ ) { 
 			//랜덤한 수를 생성
 		
+			System.out.println("Math.random() = "+Math.random());
 		int random = (int)(Math.random()*(max-min+1)+min);
 		 	//배열에 랜덤한 수를 저장
 			num[i] = random;

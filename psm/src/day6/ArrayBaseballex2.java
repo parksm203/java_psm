@@ -43,7 +43,8 @@ public class ArrayBaseballex2 {
 		for(int i = 0; i<com.length; i++) {
 			com[i] = scan.nextInt();
 		}
-
+		//컴퓨터가 1~9사이의 중복되지 않은 세 수를 저장하는 코드를 작성
+		
 		//사용자가 무한히 세 수를 입력 받음
 		int user[] = new int[3];
 		int strike = 0, ball = 0;

@@ -9,8 +9,12 @@ public class methodSumEx2 {
 		//sumAll2는 sumAll1보다는 낫다. 1에서 5까지의 합을 구할수 있다.
 		//5에서 10까지의 합을 구할수 없다
 		sumAll2(10);
+		sumAll2(100);
+		sumAll2(500);
 		//1에서 10까지의 합과 21에서 30까지의 합을 더한 값을 구할 때 사용할 수 없다.
 		sumAll3(1,10);
+		sumAll3(12,108);
+		sumAll3(0,108);
 		int begin = 1, end = 10;
 		System.out.println(begin + "부터 " + end + "까지 합 : " + sumAll4(begin,end));
 		int sum = sumAll4(1,10) + sumAll4(21,30);

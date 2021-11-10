@@ -63,10 +63,9 @@ public class MethodArrayContainsEx1 {
 		}
 		return false;
 	}
-
     /* 기능 : 배열의 갯수가 주어지면 min~max사이의 랜덤한 정수를 중복되지 않게 생성하여 저장하는 메소드
      * 매개변수 : 벼열의 갯수, 최소값, 최대값, => int min, int max, int size
-     * 리턴탕딥 : 랜덤한 수가 저장된 배열 => int[]
+     * 리턴타입 : 랜덤한 수가 저장된 배열 => int[]
      * 메소드명 : randomArray
      * */
 	public static int [] randomArray(int min,int max, int size) {
@@ -74,6 +73,7 @@ public class MethodArrayContainsEx1 {
 		for(int count = 0; count<size;) {
 			int random = (int)(Math.random()*(max - min +1) + min);
 			//random과 배열을 비교하여 중복된 숫자가 없으면
+			System.out.println(" random = "+random);
 			if(!containsArray2(arr,random,count)) {
 				arr[count++] = random;
 			}
